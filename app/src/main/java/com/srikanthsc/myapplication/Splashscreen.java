@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 
 
-public class splashscreen extends AppCompatActivity {
+public class Splashscreen extends AppCompatActivity {
     private final int SPLASH_SCREEN_TIMEOUT=3000;
 
     @Override
