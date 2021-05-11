@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
@@ -22,10 +23,11 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class MainActivity extends AppCompatActivity {
-    View view;
-    TextView tvCases,tvRecovered,tvCritical,tvActive,tvTodayCases,tvTotalDeaths,tvTodayDeaths,tvAffectedCountries;
+    View view, view1;
+    TextView tvCases, tvRecovered, tvCritical, tvActive, tvTodayCases, tvTotalDeaths, tvTodayDeaths, tvAffectedCountries;
     SimpleArcLoader simpleArcLoader;
     ScrollView scrollView;
+    private Button button;
 
 
     @Override
@@ -44,9 +46,16 @@ public class MainActivity extends AppCompatActivity {
 
         simpleArcLoader = findViewById(R.id.loader);
         scrollView = findViewById(R.id.scrollStats);
+        button = (Button) findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivity2();
+            }
+        });
 
 
-        ImageView Myimageview=  findViewById(R.id.imageView2);
+        ImageView Myimageview = findViewById(R.id.imageView2);
 
         fetchData();
 
@@ -54,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void fetchData() {
 
-        String url  = "https://corona.lmao.ninja/v2/all/";
+        String url = "https://corona.lmao.ninja/v2/all/";
 
         simpleArcLoader.start();
 
@@ -76,13 +85,9 @@ public class MainActivity extends AppCompatActivity {
                             tvAffectedCountries.setText(jsonObject.getString("affectedCountries"));
 
 
-
-
                             simpleArcLoader.stop();
                             simpleArcLoader.setVisibility(View.GONE);
                             scrollView.setVisibility(View.VISIBLE);
-
-
 
 
                         } catch (JSONException e) {
@@ -111,10 +116,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
     public void goTrackCountries(View view) {
 
         startActivity(new Intent(getApplicationContext(), Countries.class));
 
+    }
+
+    public void openActivity2(){
+        Intent intent = new Intent(this, New.class);
+        startActivity(intent);
     }
 }
