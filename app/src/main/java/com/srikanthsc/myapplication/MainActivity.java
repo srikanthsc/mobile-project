@@ -22,7 +22,7 @@ import com.leo.simplearcloader.SimpleArcLoader;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements Android {
     View view, view1;
     TextView tvCases, tvRecovered, tvCritical, tvActive, tvTodayCases, tvTotalDeaths, tvTodayDeaths, tvAffectedCountries;
     SimpleArcLoader simpleArcLoader;
@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
         tvTotalDeaths = findViewById(R.id.tvTotalDeaths);
         tvTodayDeaths = findViewById(R.id.tvTodayDeaths);
         tvAffectedCountries = findViewById(R.id.tvAffectedCountries);
+
 
         simpleArcLoader = findViewById(R.id.loader);
         scrollView = findViewById(R.id.scrollStats);
