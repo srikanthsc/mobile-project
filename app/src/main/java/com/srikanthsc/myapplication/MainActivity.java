@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openActivity2(){
-        Intent intent = new Intent(this, New.class);
+        Intent intent = new Intent(this, MyMap.class);
         startActivity(intent);
     }
 }
