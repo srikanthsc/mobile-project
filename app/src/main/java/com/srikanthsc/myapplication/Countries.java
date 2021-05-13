@@ -35,8 +35,8 @@ public class Countries extends AppCompatActivity {
     ListView listView;
     SimpleArcLoader simpleArcLoader;
 
-    public static List<CountryModel> countryModelsList = new ArrayList<>();
-    CountryModel countryModel;
+    public static List<CountriesModel> countriesModelsList = new ArrayList<>();
+    CountriesModel countriesModel;
     MyCustomAdapter myCustomAdapter;
 
     @Override
@@ -129,13 +129,13 @@ public class Countries extends AppCompatActivity {
                                 JSONObject object = jsonObject.getJSONObject("countryInfo");
                                 String flagUrl = object.getString("flag");
 
-                                countryModel = new CountryModel(flagUrl,countryName,cases,todayCases,deaths,todayDeaths,recovered,active,critical);
-                                countryModelsList.add(countryModel);
+                                countriesModel = new CountriesModel(flagUrl,countryName,cases,todayCases,deaths,todayDeaths,recovered,active,critical);
+                                countriesModelsList.add(countriesModel);
 
 
                             }
 
-                            myCustomAdapter = new MyCustomAdapter(Countries.this,countryModelsList);
+                            myCustomAdapter = new MyCustomAdapter(Countries.this, countriesModelsList);
                             listView.setAdapter(myCustomAdapter);
                             simpleArcLoader.stop();
                             simpleArcLoader.setVisibility(View.GONE);

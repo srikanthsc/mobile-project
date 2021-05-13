@@ -1,12 +1,12 @@
 package com.srikanthsc.myapplication;
 
-public class CountryModel {
+public class CountriesModel {
     private String flag,country,cases,todayCases,deaths,todayDeaths,recovered,active,critical;
 
-    public CountryModel() {
+    public CountriesModel() {
     }
 
-    public CountryModel(String flag, String country, String cases, String todayCases, String deaths, String todayDeaths, String recovered, String active, String critical) {
+    public CountriesModel(String flag, String country, String cases, String todayCases, String deaths, String todayDeaths, String recovered, String active, String critical) {
         this.flag = flag;
         this.country = country;
         this.cases = cases;

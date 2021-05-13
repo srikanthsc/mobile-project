@@ -17,18 +17,18 @@ import com.bumptech.glide.Glide;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MyCustomAdapter extends ArrayAdapter<CountryModel> {
+public class MyCustomAdapter extends ArrayAdapter<CountriesModel> {
 
     private Context context;
-    private List<CountryModel> countryModelsList;
-    private List<CountryModel> countryModelsListFiltered;
+    private List<CountriesModel> countriesModelsList;
+    private List<CountriesModel> countriesModelsListFiltered;
 
-    public MyCustomAdapter( Context context, List<CountryModel> countryModelsList) {
-        super(context, R.layout.list_custom_item,countryModelsList);
+    public MyCustomAdapter( Context context, List<CountriesModel> countriesModelsList) {
+        super(context, R.layout.list_custom_item, countriesModelsList);
 
         this.context = context;
-        this.countryModelsList = countryModelsList;
-        this.countryModelsListFiltered = countryModelsList;
+        this.countriesModelsList = countriesModelsList;
+        this.countriesModelsListFiltered = countriesModelsList;
 
     }
 
@@ -40,21 +40,21 @@ public class MyCustomAdapter extends ArrayAdapter<CountryModel> {
         TextView tvCountryName = view.findViewById(R.id.tvCountryName);
         ImageView imageView = view.findViewById(R.id.imageFlag);
 
-        tvCountryName.setText(countryModelsListFiltered.get(position).getCountry());
-        Glide.with(context).load(countryModelsListFiltered.get(position).getFlag()).into(imageView);
+        tvCountryName.setText(countriesModelsListFiltered.get(position).getCountry());
+        Glide.with(context).load(countriesModelsListFiltered.get(position).getFlag()).into(imageView);
 
         return view;
     }
 
     @Override
     public int getCount() {
-        return countryModelsListFiltered.size();
+        return countriesModelsListFiltered.size();
     }
 
     @Nullable
     @Override
-    public CountryModel getItem(int position) {
-        return countryModelsListFiltered.get(position);
+    public CountriesModel getItem(int position) {
+        return countriesModelsListFiltered.get(position);
     }
 
     @Override
@@ -70,14 +70,14 @@ public class MyCustomAdapter extends ArrayAdapter<CountryModel> {
 
                 FilterResults filterResults = new FilterResults();
                 if(constraint == null || constraint.length() == 0){
-                    filterResults.count = countryModelsList.size();
-                    filterResults.values = countryModelsList;
+                    filterResults.count = countriesModelsList.size();
+                    filterResults.values = countriesModelsList;
 
                 }else{
-                    List<CountryModel> resultsModel = new ArrayList<>();
+                    List<CountriesModel> resultsModel = new ArrayList<>();
                     String searchStr = constraint.toString().toLowerCase();
 
-                    for(CountryModel itemsModel:countryModelsList){
+                    for(CountriesModel itemsModel: countriesModelsList){
                         if(itemsModel.getCountry().toLowerCase().contains(searchStr)){
                             resultsModel.add(itemsModel);
 
@@ -95,8 +95,8 @@ public class MyCustomAdapter extends ArrayAdapter<CountryModel> {
             @Override
             protected void publishResults(CharSequence constraint, FilterResults results) {
 
-                countryModelsListFiltered = (List<CountryModel>) results.values;
-                Countries.countryModelsList = (List<CountryModel>) results.values;
+                countriesModelsListFiltered = (List<CountriesModel>) results.values;
+                Countries.countriesModelsList = (List<CountriesModel>) results.values;
                 notifyDataSetChanged();
 
             }

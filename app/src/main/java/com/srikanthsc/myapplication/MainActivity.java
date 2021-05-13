@@ -22,7 +22,7 @@ import com.leo.simplearcloader.SimpleArcLoader;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class MainActivity extends AppCompatActivity implements Android {
+public class MainActivity extends AppCompatActivity implements Interface_MainActivity {
     View view, view1;
     TextView tvCases, tvRecovered, tvCritical, tvActive, tvTodayCases, tvTotalDeaths, tvTodayDeaths, tvAffectedCountries;
     SimpleArcLoader simpleArcLoader;
