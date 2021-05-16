@@ -15,7 +15,7 @@ public class Inform extends AppCompatActivity {
 
     EditText Lastname, Fistname, date;
     Button insert, update, delete, view;
-    New DB;
+    MyData DB;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +27,7 @@ public class Inform extends AppCompatActivity {
         update = findViewById(R.id.btnUpdate);
         delete = findViewById(R.id.btnDelete);
         view = findViewById(R.id.btnView);
-        DB = new New(this);
+        DB = new MyData(this);
         insert.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
