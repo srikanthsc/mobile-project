@@ -25,7 +25,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         NotificationCompat.Builder notificationBuilder= new NotificationCompat.Builder(this,CANAL);
         notificationBuilder.setContentTitle("notif");
         notificationBuilder.setContentText(myMessage);
-        notificationBuilder.setSmallIcon(R.drawable.bell);
+        //notificationBuilder.setSmallIcon(R.drawable.bell);
 
         NotificationManager notificationManager= (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
 

@@ -15,7 +15,7 @@
         android:maxLines="1"
         android:singleLine="true"
         android:paddingLeft="10dp"
-        android:hint="Target country"
+        android:hint="ex:france"
         android:drawablePadding="15dp"
         android:background="@drawable/edittext_shadow"
         android:drawableLeft="@drawable/ic_search_black_24dp"/>

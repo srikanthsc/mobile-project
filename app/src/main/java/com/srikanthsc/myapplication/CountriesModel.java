@@ -7,15 +7,16 @@ public class CountriesModel {
     }
 
     public CountriesModel(String flag, String country, String cases, String todayCases, String deaths, String todayDeaths, String recovered, String active, String critical) {
-        this.flag = flag;
-        this.country = country;
-        this.cases = cases;
         this.todayCases = todayCases;
         this.deaths = deaths;
         this.todayDeaths = todayDeaths;
         this.recovered = recovered;
         this.active = active;
         this.critical = critical;
+        this.flag = flag;
+        this.country = country;
+        this.cases = cases;
+
     }
 
     public String getFlag() {

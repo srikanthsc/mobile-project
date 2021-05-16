@@ -9,13 +9,32 @@
         android:layout_height="60dp"
         android:src="@drawable/jj"
         android:id="@+id/img1"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="14dp"
+        android:background="@color/color_two" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/t1"
-        android:textSize="20dp"
+        android:layout_width="246dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
 
-        android:textColor="@color/colorPrimaryDark"/>
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="17dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp" />
+</RelativeLayout>
 
 </androidx.appcompat.widget.LinearLayoutCompat>

@@ -13,6 +13,7 @@ import android.widget.TextView;
 public class DetailActivity extends AppCompatActivity implements Interface_ActivityDetails {
     private Button button;
     private Button button2;
+    private Button button3;
     private  int positionCountry;
     TextView tvCountry,tvCases,tvRecovered,tvCritical,tvActive,tvTodayCases,tvTotalDeaths,tvTodayDeaths;
     @Override
@@ -44,6 +45,14 @@ public class DetailActivity extends AppCompatActivity implements Interface_Activ
             @Override
             public void onClick(View v) {
                 openActivity3();
+            }
+        });
+
+        button3 = (Button) findViewById(R.id.button3);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivity4();
             }
         });
 
@@ -81,6 +90,11 @@ public class DetailActivity extends AppCompatActivity implements Interface_Activ
 
     public void openActivity3() {
         Intent intent = new Intent(this, Vaccine.class);
+        startActivity(intent);
+    }
+
+    public void openActivity4() {
+        Intent intent = new Intent(this, Inform.class);
         startActivity(intent);
     }
 }

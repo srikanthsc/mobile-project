@@ -29,7 +29,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Countries extends AppCompatActivity {
+public class Countries extends AppCompatActivity implements Insterface_Countries  {
 
     EditText edtSearch;
     ListView listView;
@@ -37,12 +37,12 @@ public class Countries extends AppCompatActivity {
 
     public static List<CountriesModel> countriesModelsList = new ArrayList<>();
     CountriesModel countriesModel;
-    MyCustomAdapter myCustomAdapter;
+    CustomAdapter customAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_affected_countries);
+        setContentView(R.layout.activity_countries);
 
         edtSearch = findViewById(R.id.edtSearch);
         listView = findViewById(R.id.listView);
@@ -71,8 +71,8 @@ public class Countries extends AppCompatActivity {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
 
-                myCustomAdapter.getFilter().filter(s);
-                myCustomAdapter.notifyDataSetChanged();
+                customAdapter.getFilter().filter(s);
+                customAdapter.notifyDataSetChanged();
 
             }
 
@@ -84,6 +84,20 @@ public class Countries extends AppCompatActivity {
     }
 
 
+    @Override
+    public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+    }
+
+    @Override
+    public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+    }
+
+    @Override
+    public void afterTextChanged(Editable s) {
+
+    }
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
@@ -135,8 +149,8 @@ public class Countries extends AppCompatActivity {
 
                             }
 
-                            myCustomAdapter = new MyCustomAdapter(Countries.this, countriesModelsList);
-                            listView.setAdapter(myCustomAdapter);
+                            customAdapter = new CustomAdapter(Countries.this, countriesModelsList);
+                            listView.setAdapter(customAdapter);
                             simpleArcLoader.stop();
                             simpleArcLoader.setVisibility(View.GONE);
 
