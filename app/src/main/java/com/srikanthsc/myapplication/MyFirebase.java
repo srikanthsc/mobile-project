@@ -12,7 +12,7 @@ import androidx.core.app.NotificationCompat;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 // probleme a regler pour la notifiacation
-public class MyFirebaseMessagingService extends FirebaseMessagingService {
+public class MyFirebase extends FirebaseMessagingService {
 
     private static final String CANAL ="MyNotifCanal" ;
 
