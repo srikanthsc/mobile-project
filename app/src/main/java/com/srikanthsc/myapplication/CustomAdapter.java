@@ -17,7 +17,7 @@ import com.bumptech.glide.Glide;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CustomAdapter extends ArrayAdapter<CountriesModel> {
+public class CustomAdapter extends ArrayAdapter<CountriesModel> implements Interface_CustomAdapter {
 
     private Context context;
     private List<CountriesModel> countriesModelsList;
@@ -58,7 +58,8 @@ public class CustomAdapter extends ArrayAdapter<CountriesModel> {
 
     @Nullable
     @Override
-    public CountriesModel getItem(int position) {
+    public CountriesModel getItem(int position)
+    {
         return countriesModelsListFiltered.get(position);
     }
 

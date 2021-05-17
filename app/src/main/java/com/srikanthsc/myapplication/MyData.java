@@ -6,7 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-public class MyData extends SQLiteOpenHelper {
+public class MyData extends SQLiteOpenHelper implements Interface_MyData {
     public MyData(Context context) {
         super(context, "Userdata.db", null, 1);
     }

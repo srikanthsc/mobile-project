@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements Interface_MainAct
 
 
 
-    public void goTrackCountries(View view) {
+    public void ListCountries(View view) {
 
 
         startActivity(new Intent(getApplicationContext(), Countries.class));
@@ -64,5 +64,10 @@ public class MainActivity extends AppCompatActivity implements Interface_MainAct
     public void openActivity2(){
         Intent intent = new Intent(this, MyMap.class);
         startActivity(intent);
+    }
+
+    @Override
+    public void onClick(View v) {
+
     }
 }

@@ -9,7 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class ProgramAdapter extends RecyclerView.Adapter<ProgramAdapter.holder>
+public class ProgramAdapter extends RecyclerView.Adapter<ProgramAdapter.holder> implements Interface_ProgramAdapter
 {
     String data[];
 
@@ -35,6 +35,7 @@ public class ProgramAdapter extends RecyclerView.Adapter<ProgramAdapter.holder>
 
     @Override
     public int getItemCount() {
+
         return data.length;
     }
 
