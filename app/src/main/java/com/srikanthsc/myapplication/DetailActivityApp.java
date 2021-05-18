@@ -10,12 +10,17 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class DetailActivity extends AppCompatActivity implements Interface_ActivityDetails {
+public class DetailActivityApp extends AppCompatActivity implements Interface_ActivityDetails {
     private Button button;
     private Button button2;
     private Button button3;
     private  int positionCountry;
+
+
+
     TextView tvCountry,tvCases,tvRecovered,tvCritical,tvActive,tvTodayCases,tvTotalDeaths,tvTodayDeaths;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,7 +35,7 @@ public class DetailActivity extends AppCompatActivity implements Interface_Activ
 
         positionCountry = intent.getIntExtra("position", 0);
 
-        getSupportActionBar().setTitle("Details of " + Countries.countriesModelsList.get(positionCountry).getCountry());
+        getSupportActionBar().setTitle("Details : " + Countries.countriesModelsList.get(positionCountry).getCountry());
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         button = (Button) findViewById(R.id.button);

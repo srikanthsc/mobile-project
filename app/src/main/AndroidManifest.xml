@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Inform"></activity>
+        <activity android:name=".Retrofit"></activity>
+        <activity android:name=".Inform" />
         <activity android:name=".MyMap" />
         <activity android:name=".Splashscreen">
             <intent-filter>
@@ -30,7 +31,7 @@
         <activity android:name=".adapterrecyclerview" />
         <activity android:name=".Vaccine" />
         <activity android:name=".Activity2" />
-        <activity android:name=".DetailActivity" />
+        <activity android:name=".DetailActivityApp" />
         <activity android:name=".Countries" />
         <activity android:name=".MainActivity">
             <intent-filter>

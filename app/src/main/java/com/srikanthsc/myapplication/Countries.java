@@ -57,7 +57,7 @@ public class Countries extends AppCompatActivity implements Insterface_Countries
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                startActivity(new Intent(getApplicationContext(),DetailActivity.class).putExtra("position",position));
+                startActivity(new Intent(getApplicationContext(), DetailActivityApp.class).putExtra("position",position));
             }
         });
 
