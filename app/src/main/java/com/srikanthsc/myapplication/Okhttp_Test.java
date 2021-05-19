@@ -13,14 +13,15 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
+
 public class Okhttp_Test extends AppCompatActivity {
-    private TextView mTextViewResult;
+    private TextView okhttp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_okhttp__test);
 
-        mTextViewResult = findViewById(R.id.text_view_result);
+        okhttp = findViewById(R.id.text_view);
         OkHttpClient client = new OkHttpClient();
         String url = "http://www.json-generator.com/api/json/get/bTzfdlcXSa?indent=2";
         Request request = new Request.Builder()
@@ -32,13 +33,13 @@ public class Okhttp_Test extends AppCompatActivity {
                 e.printStackTrace();
     }
             @Override
-            public void onResponse(Call call, Response response) throws IOException {
-                if (response.isSuccessful()) {
-                    final String myResponse = response.body().string();
+            public void onResponse(Call call, Response responseok) throws IOException {
+                if (responseok.isSuccessful()) {
+                    final String myResponse = responseok.body().string();
                     Okhttp_Test.this.runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
-                            mTextViewResult.setText(myResponse);
+                            okhttp.setText(myResponse);
                         }
                     });
                 }

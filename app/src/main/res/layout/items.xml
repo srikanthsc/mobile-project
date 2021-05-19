@@ -7,7 +7,7 @@
     <ImageView
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:src="@drawable/jj"
+        android:src="@drawable/po"
         android:id="@+id/img1"/>
 <RelativeLayout
     android:layout_width="match_parent"

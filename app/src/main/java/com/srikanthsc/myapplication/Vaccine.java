@@ -11,7 +11,8 @@ public class Vaccine extends AppCompatActivity {
 
     RecyclerView rcv;
 
-    int[] programImage={R.drawable.jj,R.drawable.moderna,R.drawable.pfizer};
+    int[] programImage={R.drawable.po};
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

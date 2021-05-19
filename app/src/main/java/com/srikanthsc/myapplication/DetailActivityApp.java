@@ -18,7 +18,7 @@ public class DetailActivityApp extends AppCompatActivity implements Interface_Ac
     private Button button4;
 
 
-    TextView tvCountry,tvCases,tvRecovered,tvCritical,tvActive,tvTodayCases,tvTotalDeaths,tvTodayDeaths;
+    TextView tCountry, tCases, tRecovered, tCritical, tActive, tTodayCases, tTotalDeaths, tTodayDeaths;
 
 
     @Override
@@ -69,23 +69,23 @@ public class DetailActivityApp extends AppCompatActivity implements Interface_Ac
             }
         });
 
-        tvCountry = findViewById(R.id.tvCountry);
-        tvCases = findViewById(R.id.tvCases);
-        tvRecovered = findViewById(R.id.tvRecovered);
-        tvCritical = findViewById(R.id.tvCritical);
-        tvActive = findViewById(R.id.tvActive);
-        tvTodayCases = findViewById(R.id.tvTodayCases);
-        tvTotalDeaths = findViewById(R.id.tvDeaths);
-        tvTodayDeaths = findViewById(R.id.tvTodayDeaths);
+        tCountry = findViewById(R.id.tCountry);
+        tCases = findViewById(R.id.tCases);
+        tRecovered = findViewById(R.id.tRecovered);
+        tCritical = findViewById(R.id.tCritical);
+        tActive = findViewById(R.id.tActive);
+        tTodayCases = findViewById(R.id.tTodayCases);
+        tTotalDeaths = findViewById(R.id.tDeaths);
+        tTodayDeaths = findViewById(R.id.tTodayDeaths);
 
-        tvCountry.setText(Countries.countriesModelsList.get(positionCountry).getCountry());
-        tvCases.setText(Countries.countriesModelsList.get(positionCountry).getCases());
-        tvRecovered.setText(Countries.countriesModelsList.get(positionCountry).getRecovered());
-        tvCritical.setText(Countries.countriesModelsList.get(positionCountry).getCritical());
-        tvActive.setText(Countries.countriesModelsList.get(positionCountry).getActive());
-        tvTodayCases.setText(Countries.countriesModelsList.get(positionCountry).getTodayCases());
-        tvTotalDeaths.setText(Countries.countriesModelsList.get(positionCountry).getDeaths());
-        tvTodayDeaths.setText(Countries.countriesModelsList.get(positionCountry).getTodayDeaths());
+        tCountry.setText(Countries.countriesModelsList.get(positionCountry).getCountry());
+        tCases.setText(Countries.countriesModelsList.get(positionCountry).getCases());
+        tRecovered.setText(Countries.countriesModelsList.get(positionCountry).getRecovered());
+        tCritical.setText(Countries.countriesModelsList.get(positionCountry).getCritical());
+        tActive.setText(Countries.countriesModelsList.get(positionCountry).getActive());
+        tTodayCases.setText(Countries.countriesModelsList.get(positionCountry).getTodayCases());
+        tTotalDeaths.setText(Countries.countriesModelsList.get(positionCountry).getDeaths());
+        tTodayDeaths.setText(Countries.countriesModelsList.get(positionCountry).getTodayDeaths());
 
 
     }
