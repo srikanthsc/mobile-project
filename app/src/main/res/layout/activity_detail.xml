@@ -31,7 +31,7 @@
             android:textAlignment="textEnd"
             android:textSize="18sp"
 
-            android:textColor="@color/color_one"
+            android:textColor="@color/active"
             android:textStyle="bold"
             android:fontFamily="sans-serif-light"
             android:layout_alignParentRight="true"/>
@@ -67,7 +67,7 @@
             android:textAlignment="textEnd"
             android:textSize="18sp"
 
-            android:textColor="@color/color_one"
+            android:textColor="@color/active"
             android:textStyle="bold"
             android:fontFamily="sans-serif-light"
             android:layout_alignParentRight="true"/>
@@ -103,7 +103,7 @@
             android:textAlignment="textEnd"
             android:textSize="18sp"
 
-            android:textColor="@color/color_one"
+            android:textColor="@color/active"
             android:textStyle="bold"
             android:fontFamily="sans-serif-light"
             android:layout_alignParentRight="true"/>
@@ -139,7 +139,7 @@
             android:textAlignment="textEnd"
             android:textSize="18sp"
 
-            android:textColor="@color/color_one"
+            android:textColor="@color/active"
             android:textStyle="bold"
             android:fontFamily="sans-serif-light"
             android:layout_alignParentRight="true"/>
@@ -175,7 +175,7 @@
             android:textAlignment="textEnd"
             android:textSize="18sp"
 
-            android:textColor="@color/color_one"
+            android:textColor="@color/active"
             android:textStyle="bold"
             android:fontFamily="sans-serif-light"
             android:layout_alignParentRight="true"/>
@@ -211,7 +211,7 @@
             android:textAlignment="textEnd"
             android:textSize="18sp"
 
-            android:textColor="@color/color_one"
+            android:textColor="@color/active"
             android:textStyle="bold"
             android:fontFamily="sans-serif-light"
             android:layout_alignParentRight="true"/>
@@ -247,7 +247,7 @@
             android:textAlignment="textEnd"
             android:textSize="18sp"
 
-            android:textColor="@color/color_one"
+            android:textColor="@color/active"
             android:textStyle="bold"
             android:fontFamily="sans-serif-light"
             android:layout_alignParentRight="true"/>
@@ -282,7 +282,7 @@
             android:id="@+id/tCritical"
             android:textAlignment="textEnd"
             android:textSize="18sp"
-            android:textColor="@color/color_one"
+            android:textColor="@color/active"
             android:textStyle="bold"
             android:fontFamily="sans-serif-light"
             android:layout_alignParentRight="true"/>
@@ -327,4 +327,11 @@
 
         android:layout_centerHorizontal="true"
         android:text="OKHTTP" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/info" />
+
 </LinearLayout>
