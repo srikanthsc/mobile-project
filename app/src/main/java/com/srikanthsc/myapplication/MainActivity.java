@@ -48,7 +48,8 @@ public class MainActivity extends AppCompatActivity implements Interface_MainAct
 
 
         ImageView Myimageview = findViewById(R.id.imageView2);
-
+          getSupportActionBar().setDisplayShowHomeEnabled(true);
+          getSupportActionBar().setIcon(R.drawable.ic_baseline_today_24);
 
     }
 
