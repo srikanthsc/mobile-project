@@ -319,4 +319,12 @@
 
         android:layout_centerHorizontal="true"
         android:text="inform" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+
+        android:layout_centerHorizontal="true"
+        android:text="OKHTTP" />
 </LinearLayout>

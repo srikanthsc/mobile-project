@@ -98,10 +98,10 @@ var activeTableTab = "activeTableTab";
 <li>java.lang.Object</li>
 <li>
 <ul class="inheritance">
-<li>androidx.recyclerview.widget.RecyclerView.Adapter&lt;com.srikanthsc.myapplication.ProgramAdapter.holder&gt;</li>
+<li>androidx.recyclerview.widget.RecyclerView.Adapter&lt;com.srikanthsc.myapplication.ProgramAdapterRecyclerView.holder&gt;</li>
 <li>
 <ul class="inheritance">
-<li>com.srikanthsc.myapplication.ProgramAdapter</li>
+<li>com.srikanthsc.myapplication.ProgramAdapterRecyclerView</li>
 </ul>
 </li>
 </ul>
@@ -117,7 +117,7 @@ var activeTableTab = "activeTableTab";
 <hr>
 <br>
 <pre>public class <span class="typeNameLabel">ProgramAdapter</span>
-extends androidx.recyclerview.widget.RecyclerView.Adapter&lt;com.srikanthsc.myapplication.ProgramAdapter.holder&gt;
+extends androidx.recyclerview.widget.RecyclerView.Adapter&lt;com.srikanthsc.myapplication.ProgramAdapterRecyclerView.holder&gt;
 implements <a href="../../../com/srikanthsc/myapplication/Interface_ProgramAdapter.html" title="interface in com.srikanthsc.myapplication">Interface_ProgramAdapter</a></pre>
 </li>
 </ul>
@@ -175,11 +175,11 @@ implements <a href="../../../com/srikanthsc/myapplication/Interface_ProgramAdapt
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../com/srikanthsc/myapplication/ProgramAdapter.html#onBindViewHolder-com.srikanthsc.myapplication.ProgramAdapter.holder-int-">onBindViewHolder</a></span>(com.srikanthsc.myapplication.ProgramAdapter.holder&nbsp;holder,
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../com/srikanthsc/myapplication/ProgramAdapter.html#onBindViewHolder-com.srikanthsc.myapplication.ProgramAdapterRecyclerView.holder-int-">onBindViewHolder</a></span>(com.srikanthsc.myapplication.ProgramAdapterRecyclerView.holder&nbsp;holder,
                 int&nbsp;position)</code>&nbsp;</td>
 </tr>
 <tr id="i2" class="altColor">
-<td class="colFirst"><code>com.srikanthsc.myapplication.ProgramAdapter.holder</code></td>
+<td class="colFirst"><code>com.srikanthsc.myapplication.ProgramAdapterRecyclerView.holder</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../com/srikanthsc/myapplication/ProgramAdapter.html#onCreateViewHolder-android.view.ViewGroup-int-">onCreateViewHolder</a></span>(android.view.ViewGroup&nbsp;parent,
                   int&nbsp;viewType)</code>&nbsp;</td>
 </tr>
@@ -236,31 +236,31 @@ implements <a href="../../../com/srikanthsc/myapplication/Interface_ProgramAdapt
 <li class="blockList">
 <h4>onCreateViewHolder</h4>
 <pre>@NonNull
-public&nbsp;com.srikanthsc.myapplication.ProgramAdapter.holder&nbsp;onCreateViewHolder(@NonNull
+public&nbsp;com.srikanthsc.myapplication.ProgramAdapterRecyclerView.holder&nbsp;onCreateViewHolder(@NonNull
                                                                                        android.view.ViewGroup&nbsp;parent,
                                                                                        int&nbsp;viewType)</pre>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="../../../com/srikanthsc/myapplication/Interface_ProgramAdapter.html#onCreateViewHolder-android.view.ViewGroup-int-">onCreateViewHolder</a></code>&nbsp;in interface&nbsp;<code><a href="../../../com/srikanthsc/myapplication/Interface_ProgramAdapter.html" title="interface in com.srikanthsc.myapplication">Interface_ProgramAdapter</a></code></dd>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code>onCreateViewHolder</code>&nbsp;in class&nbsp;<code>androidx.recyclerview.widget.RecyclerView.Adapter&lt;com.srikanthsc.myapplication.ProgramAdapter.holder&gt;</code></dd>
+<dd><code>onCreateViewHolder</code>&nbsp;in class&nbsp;<code>androidx.recyclerview.widget.RecyclerView.Adapter&lt;com.srikanthsc.myapplication.ProgramAdapterRecyclerView.holder&gt;</code></dd>
 </dl>
 </li>
 </ul>
-<a name="onBindViewHolder-com.srikanthsc.myapplication.ProgramAdapter.holder-int-">
+<a name="onBindViewHolder-com.srikanthsc.myapplication.ProgramAdapterRecyclerView.holder-int-">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onBindViewHolder</h4>
 <pre>public&nbsp;void&nbsp;onBindViewHolder(@NonNull
-                             com.srikanthsc.myapplication.ProgramAdapter.holder&nbsp;holder,
+                             com.srikanthsc.myapplication.ProgramAdapterRecyclerView.holder&nbsp;holder,
                              int&nbsp;position)</pre>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="../../../com/srikanthsc/myapplication/Interface_ProgramAdapter.html#onBindViewHolder-com.srikanthsc.myapplication.ProgramAdapter.holder-int-">onBindViewHolder</a></code>&nbsp;in interface&nbsp;<code><a href="../../../com/srikanthsc/myapplication/Interface_ProgramAdapter.html" title="interface in com.srikanthsc.myapplication">Interface_ProgramAdapter</a></code></dd>
+<dd><code><a href="../../../com/srikanthsc/myapplication/Interface_ProgramAdapter.html#onBindViewHolder-com.srikanthsc.myapplication.ProgramAdapterRecyclerView.holder-int-">onBindViewHolder</a></code>&nbsp;in interface&nbsp;<code><a href="../../../com/srikanthsc/myapplication/Interface_ProgramAdapter.html" title="interface in com.srikanthsc.myapplication">Interface_ProgramAdapter</a></code></dd>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code>onBindViewHolder</code>&nbsp;in class&nbsp;<code>androidx.recyclerview.widget.RecyclerView.Adapter&lt;com.srikanthsc.myapplication.ProgramAdapter.holder&gt;</code></dd>
+<dd><code>onBindViewHolder</code>&nbsp;in class&nbsp;<code>androidx.recyclerview.widget.RecyclerView.Adapter&lt;com.srikanthsc.myapplication.ProgramAdapterRecyclerView.holder&gt;</code></dd>
 </dl>
 </li>
 </ul>
@@ -275,7 +275,7 @@ public&nbsp;com.srikanthsc.myapplication.ProgramAdapter.holder&nbsp;onCreateView
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="../../../com/srikanthsc/myapplication/Interface_ProgramAdapter.html#getItemCount--">getItemCount</a></code>&nbsp;in interface&nbsp;<code><a href="../../../com/srikanthsc/myapplication/Interface_ProgramAdapter.html" title="interface in com.srikanthsc.myapplication">Interface_ProgramAdapter</a></code></dd>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code>getItemCount</code>&nbsp;in class&nbsp;<code>androidx.recyclerview.widget.RecyclerView.Adapter&lt;com.srikanthsc.myapplication.ProgramAdapter.holder&gt;</code></dd>
+<dd><code>getItemCount</code>&nbsp;in class&nbsp;<code>androidx.recyclerview.widget.RecyclerView.Adapter&lt;com.srikanthsc.myapplication.ProgramAdapterRecyclerView.holder&gt;</code></dd>
 </dl>
 </li>
 </ul>

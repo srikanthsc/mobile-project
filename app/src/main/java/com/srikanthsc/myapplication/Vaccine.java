@@ -20,7 +20,7 @@ public class Vaccine extends AppCompatActivity {
         rcv.setLayoutManager(new LinearLayoutManager(this));
 
         String arr[]={"Moderna","Pfizer","Covishield","sputnik ","Astrazeneca",""};
-        rcv.setAdapter(new ProgramAdapter(arr));
+        rcv.setAdapter(new ProgramAdapterRecyclerView(arr));
 
 
 

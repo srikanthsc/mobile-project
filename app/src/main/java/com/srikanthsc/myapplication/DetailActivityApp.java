@@ -15,7 +15,7 @@ public class DetailActivityApp extends AppCompatActivity implements Interface_Ac
     private Button button2;
     private Button button3;
     private  int positionCountry;
-
+    private Button button4;
 
 
     TextView tvCountry,tvCases,tvRecovered,tvCritical,tvActive,tvTodayCases,tvTotalDeaths,tvTodayDeaths;
@@ -61,6 +61,14 @@ public class DetailActivityApp extends AppCompatActivity implements Interface_Ac
             }
         });
 
+        button4 = (Button) findViewById(R.id.button4);
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivityOKHTTP();
+            }
+        });
+
         tvCountry = findViewById(R.id.tvCountry);
         tvCases = findViewById(R.id.tvCases);
         tvRecovered = findViewById(R.id.tvRecovered);
@@ -81,6 +89,9 @@ public class DetailActivityApp extends AppCompatActivity implements Interface_Ac
 
 
     }
+
+
+
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if(item.getItemId()==android.R.id.home)
@@ -100,6 +111,13 @@ public class DetailActivityApp extends AppCompatActivity implements Interface_Ac
 
     public void openActivity4() {
         Intent intent = new Intent(this, Inform.class);
+        startActivity(intent);
+    }
+
+    private void openActivityOKHTTP() {
+
+
+        Intent intent = new Intent(this,Okhttp_Test.class);
         startActivity(intent);
     }
 }

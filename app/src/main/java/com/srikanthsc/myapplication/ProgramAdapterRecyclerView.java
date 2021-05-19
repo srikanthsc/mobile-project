@@ -9,11 +9,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class ProgramAdapter extends RecyclerView.Adapter<ProgramAdapter.holder> implements Interface_ProgramAdapter
+public class ProgramAdapterRecyclerView extends RecyclerView.Adapter<ProgramAdapterRecyclerView.holder> implements Interface_ProgramAdapter
 {
     String data[];
 
-    public ProgramAdapter(String[] data)
+    public ProgramAdapterRecyclerView(String[] data)
     {
         this.data = data;
     }

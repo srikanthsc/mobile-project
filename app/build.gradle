@@ -5,6 +5,10 @@ apply plugin: 'com.google.gms.google-services'
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
+    compileOptions {
+        targetCompatibility = "8"
+        sourceCompatibility = "8"
+    }
 
     defaultConfig {
         applicationId "com.srikanthsc.myapplication"
@@ -24,6 +28,7 @@ android {
     }
 
 }
+
 
 dependencies {
 
@@ -45,7 +50,7 @@ dependencies {
     implementation 'com.android.volley:volley:1.1.1'
     implementation 'com.leo.simplearcloader:simplearcloader:1.0.+'
     implementation 'com.github.bumptech.glide:glide:4.11.0'
-
+    implementation 'com.squareup.okhttp3:okhttp:3.9.1'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
