@@ -140,7 +140,7 @@ public class Countries extends AppCompatActivity implements Insterface_Countries
                                 String active = jsonObject.getString("active"); // variable active
                                 String critical = jsonObject.getString("critical"); //variable critical
 
-                                JSONObject object = jsonObject.getJSONObject("countryInfo"); // variable object
+                                JSONObject object = jsonObject.getJSONObject("countryInfo"); // variable CountryInfo
                                 String flagUrl = object.getString("flag"); // variable flagUrl
 
                                 countriesModel = new CountriesModel(flagUrl,countryName,cases,todayCases,deaths,todayDeaths,recovered,active,critical);
@@ -159,7 +159,7 @@ public class Countries extends AppCompatActivity implements Insterface_Countries
 
 
 
-                        } catch (JSONException e) { // traite les exeptions
+                        } catch (JSONException e) { // traite les exceptions
                             e.printStackTrace();
                             simpleArcLoader.stop();
                             simpleArcLoader.setVisibility(View.GONE);

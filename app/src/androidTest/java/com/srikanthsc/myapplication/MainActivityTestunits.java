@@ -1,5 +1,5 @@
-package com.srikanthsc.myapplication;
-
+package com.srikanthsc.myapplication;// nom du package
+//import
 import android.view.View;
 
 import org.junit.After;
@@ -8,7 +8,7 @@ import org.junit.Rule;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-
+// test unitaires
 public class MainActivityTestunits {
 
     @Rule

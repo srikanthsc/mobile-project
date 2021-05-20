@@ -1,12 +1,12 @@
-package com.srikanthsc.myapplication;
+package com.srikanthsc.myapplication; // package
 
-public class CountriesModel implements Interface_CountriesModel  {
-    private String flag,country,cases,todayCases,deaths,todayDeaths,recovered,active,critical;
+public class CountriesModel implements Interface_CountriesModel  { //classe qui est lier a une l'interface
+    private String flag,country,cases,todayCases,deaths,todayDeaths,recovered,active,critical; //declaration des variables en fonction de l'api
 
     public CountriesModel() {
     }
 
-    public CountriesModel(String flag, String country, String cases, String todayCases, String deaths, String todayDeaths, String recovered, String active, String critical) {
+    public CountriesModel(String flag, String country, String cases, String todayCases, String deaths, String todayDeaths, String recovered, String active, String critical) {// constructeur de la classe CountriesModel
         this.todayCases = todayCases;
         this.deaths = deaths;
         this.todayDeaths = todayDeaths;
@@ -18,7 +18,7 @@ public class CountriesModel implements Interface_CountriesModel  {
         this.cases = cases;
 
     }
-
+//------------------------------------------------------ getters et setters-----------------------------------------------------
     public String getFlag() {
 
         return flag;
@@ -107,3 +107,4 @@ public class CountriesModel implements Interface_CountriesModel  {
         this.critical = critical;
     }
 }
+//-------------------------------------------------------- fin des getters et setters---------------------------------------------
