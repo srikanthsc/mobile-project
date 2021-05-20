@@ -328,10 +328,12 @@
         android:layout_centerHorizontal="true"
         android:text="OKHTTP" />
 
-    <ImageView
-        android:id="@+id/imageView8"
+    <Button
+        android:id="@+id/button5"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/info" />
+        android:layout_height="45dp"
+
+        android:layout_centerHorizontal="true"
+        android:text="ADD" />
 
 </LinearLayout>

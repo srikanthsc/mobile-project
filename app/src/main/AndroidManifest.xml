@@ -11,7 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Okhttp_Test"></activity>
+        <activity android:name=".ActivityADAdMob"></activity>
+        <activity android:name=".AdTestAdMob" />
+        <activity android:name=".GraphPieChartActivity" />
+        <activity android:name=".Okhttp_Test" />
         <activity android:name=".Retrofit" />
         <activity android:name=".Inform" />
         <activity android:name=".MyMap" />
@@ -41,6 +44,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6151822298132013~2014332124" />
     </application>
 
 </manifest>

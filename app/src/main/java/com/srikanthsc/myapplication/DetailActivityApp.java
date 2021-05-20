@@ -16,6 +16,7 @@ public class DetailActivityApp extends AppCompatActivity implements Interface_Ac
     private Button button3;
     private  int positionCountry;
     private Button button4;
+    private Button button5_ADD;
 
 
     TextView tCountry, tCases, tRecovered, tCritical, tActive, tTodayCases, tTotalDeaths, tTodayDeaths;
@@ -69,6 +70,14 @@ public class DetailActivityApp extends AppCompatActivity implements Interface_Ac
             }
         });
 
+        button5_ADD = (Button) findViewById(R.id.button5);
+        button5_ADD.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivityADD();
+            }
+        });
+
         tCountry = findViewById(R.id.tCountry);
         tCases = findViewById(R.id.tCases);
         tRecovered = findViewById(R.id.tRecovered);
@@ -90,6 +99,11 @@ public class DetailActivityApp extends AppCompatActivity implements Interface_Ac
 
     }
 
+    private void openActivityADD() {
+
+        Intent intent = new Intent(this, AdTestAdMob.class);
+        startActivity(intent);
+    }
 
 
     @Override
