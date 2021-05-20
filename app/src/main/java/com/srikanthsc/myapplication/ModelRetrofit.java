@@ -1,7 +1,7 @@
-package com.srikanthsc.myapplication;
+package com.srikanthsc.myapplication;//nom du package
 
-public class ModelRetrofit {
-
+public class ModelRetrofit { // classe
+//declaration des variable
     private String userId;
     private String title;
 

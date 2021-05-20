@@ -1,5 +1,5 @@
-package com.srikanthsc.myapplication;
-
+package com.srikanthsc.myapplication;// nom du package
+// import
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -19,11 +19,12 @@ import java.util.List;
 
 public class CustomAdapter extends ArrayAdapter<CountriesModel> implements Interface_CustomAdapter {
 
-    private Context context;
-    private List<CountriesModel> countriesModelsList;
-    private List<CountriesModel> countriesModelsListFiltered;
+    private Context context; // variable c'est le contexte de l'état actuel de l'application / objet.
+    private List<CountriesModel> countriesModelsList; // variable  liste
+    private List<CountriesModel> countriesModelsListFiltered; // variable liste
 
-    public CustomAdapter(Context context, List<CountriesModel> countriesModelsList) {
+    public CustomAdapter(Context context, List<CountriesModel> countriesModelsList) { // constructeur
+        // Custom adapter Un adapteur est un objet de classe qui fait introduire l'interface Adapter. Il agit comme un lien entre un ensemble de  et une vue d'adapteur, un objet de classe qui etend la classe abstraite de AdapterView
 
         super(context, R.layout.list_custom_item, countriesModelsList);
 
@@ -37,17 +38,17 @@ public class CustomAdapter extends ArrayAdapter<CountriesModel> implements Inter
 
     @NonNull
     @Override
-    public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+    public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) { //methode getview
 
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_custom_item,null,true);
-        TextView tvCountryName = view.findViewById(R.id.tvCountryName);
+        TextView tvCountryName = view.findViewById(R.id.tvCountryName);//ressource
 
-        ImageView imageView = view.findViewById(R.id.imageFlag);
+        ImageView imageView = view.findViewById(R.id.imageFlag);//resoource
 
-        tvCountryName.setText(countriesModelsListFiltered.get(position).getCountry());
+        tvCountryName.setText(countriesModelsListFiltered.get(position).getCountry());//resoource
 
-        Glide.with(context).load(countriesModelsListFiltered.get(position).getFlag()).into(imageView);
-
+        Glide.with(context).load(countriesModelsListFiltered.get(position).getFlag()).into(imageView);//resoource
+//Glide est une bibliothèque de chargement d’images pour Android
         return view;
     }
 
@@ -58,7 +59,7 @@ public class CustomAdapter extends ArrayAdapter<CountriesModel> implements Inter
 
     @Nullable
     @Override
-    public CountriesModel getItem(int position)
+    public CountriesModel getItem(int position) //methode
     {
         return countriesModelsListFiltered.get(position);
     }
@@ -66,13 +67,13 @@ public class CustomAdapter extends ArrayAdapter<CountriesModel> implements Inter
     @Override
     public long getItemId(int position) {
         return position;
-    }
+    } //methode
 
     @Override
     public Filter getFilter() {
         Filter filter = new Filter() {
             @Override
-            protected FilterResults performFiltering(CharSequence constraint) {
+            protected FilterResults performFiltering(CharSequence constraint) { //methode
 
                 FilterResults filterResults = new FilterResults();
                 if(constraint == null || constraint.length() == 0){
@@ -111,12 +112,12 @@ public class CustomAdapter extends ArrayAdapter<CountriesModel> implements Inter
             }
 
             @Override
-            protected void publishResults(CharSequence constraint, FilterResults results) {
+            protected void publishResults(CharSequence constraint, FilterResults results) { //methode
 
                 countriesModelsListFiltered = (List<CountriesModel>) results.values;
                 Countries.countriesModelsList = (List<CountriesModel>) results.values;
 
-                notifyDataSetChanged();
+                notifyDataSetChanged();//signaler si les donnees ont changer
 
             }
         };

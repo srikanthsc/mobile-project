@@ -1,5 +1,5 @@
-package com.srikanthsc.myapplication;
-
+package com.srikanthsc.myapplication;//nom du package
+//import
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 public class Inform extends AppCompatActivity {
 
-
+//-------------------------------------------------- creation des donnees en cache avec sqllite----------------------------------
     EditText Lastname, Fistname, date;
     Button insert, update, delete, view;
     MyData DB;

@@ -1,5 +1,5 @@
-package com.srikanthsc.myapplication;
-
+package com.srikanthsc.myapplication;//nom du package
+//import
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
+//l'adapter Permet de faire la liaison (Bind) entre la vue RecyclerView et une liste de donnée
 public class ProgramAdapterRecyclerView extends RecyclerView.Adapter<ProgramAdapterRecyclerView.holder> implements Interface_ProgramAdapter
 {
     String data[];

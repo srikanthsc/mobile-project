@@ -1,5 +1,5 @@
-package com.srikanthsc.myapplication;
-
+package com.srikanthsc.myapplication;//nom du package
+//import
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class DetailActivityApp extends AppCompatActivity implements Interface_ActivityDetails {
+    //declaration des variable
     private Button button;
     private Button button2;
     private Button button3;
@@ -44,13 +45,14 @@ public class DetailActivityApp extends AppCompatActivity implements Interface_Ac
             @Override
             public void onClick(View v) {
                 openActivity2();
-            }
+            }//activite
         });
         button2 = (Button) findViewById(R.id.button2);
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                openActivity3();
+            public void onClick(View v)
+            {
+                openActivity3();//activite
             }
         });
 
@@ -58,7 +60,8 @@ public class DetailActivityApp extends AppCompatActivity implements Interface_Ac
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openActivity4();
+
+                openActivity4();//activite
             }
         });
 
@@ -66,7 +69,8 @@ public class DetailActivityApp extends AppCompatActivity implements Interface_Ac
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openActivityOKHTTP();
+
+                openActivityOKHTTP();//activite pour Okhttp client http
             }
         });
 
@@ -74,7 +78,7 @@ public class DetailActivityApp extends AppCompatActivity implements Interface_Ac
         button5_ADD.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openActivityADD();
+                openActivityADD();//activite
             }
         });
 
@@ -98,37 +102,37 @@ public class DetailActivityApp extends AppCompatActivity implements Interface_Ac
 
 
     }
-
+//ouvrir le admob de google
     private void openActivityADD() {
 
         Intent intent = new Intent(this, AdTestAdMob.class);
         startActivity(intent);
     }
-
+// fin de la methode pour le admob
 
     @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) { //methode pour defiler la liste et selectionner l'items
         if(item.getItemId()==android.R.id.home)
             finish();
         return super.onOptionsItemSelected(item);
     }
-    public void openActivity2() {
+    public void openActivity2() { // methode pour ouvrir activite
         Intent intent = new Intent(this, Activity2.class);
         startActivity(intent);
     }
 
 
-    public void openActivity3() {
+    public void openActivity3() {//methode pour ouvrir activite
         Intent intent = new Intent(this, Vaccine.class);
         startActivity(intent);
     }
 
-    public void openActivity4() {
+    public void openActivity4() {//methode pour ouvrir activite
         Intent intent = new Intent(this, Inform.class);
         startActivity(intent);
     }
 
-    private void openActivityOKHTTP() {
+    private void openActivityOKHTTP() {// methode pour ouvrir activite
 
 
         Intent intent = new Intent(this,Okhttp_Test.class);

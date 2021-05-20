@@ -1,5 +1,5 @@
-package com.srikanthsc.myapplication;
-
+package com.srikanthsc.myapplication;//nom du package
+//import
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -10,10 +10,10 @@ public class MyData extends SQLiteOpenHelper implements Interface_MyData {
     public MyData(Context context) {
         super(context, "Userdata.db", null, 1);
     }
-
+//------------------------------------------creation des donnees cache avec sqllite-------------------------
     @Override
     public void onCreate(SQLiteDatabase DB) {
-        DB.execSQL("create Table Userdetails(name TEXT primary key, contact TEXT, dob TEXT)");
+        DB.execSQL("create Table Userdetails(name TEXT primary key, contact TEXT, dob TEXT)");//sql
     }
 
     @Override
@@ -42,7 +42,7 @@ public class MyData extends SQLiteOpenHelper implements Interface_MyData {
         ContentValues contentValues = new ContentValues();
         contentValues.put("contact", contact);
         contentValues.put("dob", dob);
-        Cursor cursor = DB.rawQuery("Select * from Userdetails where name = ?", new String[]{name});
+        Cursor cursor = DB.rawQuery("Select * from Userdetails where name = ?", new String[]{name});//requete sql
         if (cursor.getCount() > 0) {
             long result = DB.update("Userdetails", contentValues, "name=?", new String[]{name});
             if (result == -1) {
@@ -55,7 +55,7 @@ public class MyData extends SQLiteOpenHelper implements Interface_MyData {
         }}
 
 
-    public Boolean deletedata (String name)
+    public Boolean deletedata (String name)//suprimmer
     {
         SQLiteDatabase DB = this.getWritableDatabase();
         Cursor cursor = DB.rawQuery("Select * from Userdetails where name = ?", new String[]{name});
@@ -72,7 +72,7 @@ public class MyData extends SQLiteOpenHelper implements Interface_MyData {
 
     }
 
-    public Cursor getdata ()
+    public Cursor getdata ()//obtenier la donnees
     {
         SQLiteDatabase DB = this.getWritableDatabase();
         Cursor cursor = DB.rawQuery("Select * from Userdetails", null);

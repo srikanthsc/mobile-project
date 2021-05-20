@@ -1,5 +1,5 @@
-package com.srikanthsc.myapplication;
-
+package com.srikanthsc.myapplication;//nom du package
+//import
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -12,10 +12,10 @@ import okhttp3.Callback;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
-
+//utilisation de Okhttp
 
 public class Okhttp_Test extends AppCompatActivity {
-    private TextView okhttp;
+    private TextView okhttp;//variable pour afficher le contenue de l'api utiliser pour afficher les pays
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,7 +23,7 @@ public class Okhttp_Test extends AppCompatActivity {
 
         okhttp = findViewById(R.id.text_view);
         OkHttpClient client = new OkHttpClient();
-        String url = "http://www.json-generator.com/api/json/get/bTzfdlcXSa?indent=2";
+        String url = "http://www.json-generator.com/api/json/get/bTzfdlcXSa?indent=2";//url de l'api
         Request request = new Request.Builder()
                 .url(url)
                 .build();
