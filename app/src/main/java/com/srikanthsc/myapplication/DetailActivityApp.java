@@ -1,14 +1,14 @@
 package com.srikanthsc.myapplication;//nom du package
 //import
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class DetailActivityApp extends AppCompatActivity implements Interface_ActivityDetails {
     //declaration des variable
@@ -18,6 +18,11 @@ public class DetailActivityApp extends AppCompatActivity implements Interface_Ac
     private  int positionCountry;
     private Button button4;
     private Button button5_ADD;
+    private Button button6;
+
+
+
+
 
 
     TextView tCountry, tCases, tRecovered, tCritical, tActive, tTodayCases, tTotalDeaths, tTodayDeaths;
@@ -82,6 +87,20 @@ public class DetailActivityApp extends AppCompatActivity implements Interface_Ac
             }
         });
 
+        button6 = (Button) findViewById(R.id.button6);
+        button6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivityr();//activite
+            }
+        });
+
+
+
+
+
+        
+
         tCountry = findViewById(R.id.tCountry);
         tCases = findViewById(R.id.tCases);
         tRecovered = findViewById(R.id.tRecovered);
@@ -102,7 +121,17 @@ public class DetailActivityApp extends AppCompatActivity implements Interface_Ac
 
 
     }
-//ouvrir le admob de google
+
+
+
+    private void openActivityr() {
+
+        Intent intent = new Intent(this, Retrofit.class);
+        startActivity(intent);
+    }
+
+
+    //ouvrir le admob de google
     private void openActivityADD() {
 
         Intent intent = new Intent(this, AdTestAdMob.class);

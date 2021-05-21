@@ -43,44 +43,47 @@
 
     <Button
         android:id="@+id/btnInsert"
-        android:layout_width="238dp"
+        android:layout_width="146dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/dob"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="96dp"
+        android:layout_marginEnd="243dp"
         android:text="Send"
         android:textSize="24dp" />
 
     <Button
         android:id="@+id/btnUpdate"
-        android:layout_width="241dp"
+        android:layout_width="153dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/btnInsert"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="11dp"
-        android:layout_marginEnd="92dp"
-        android:text="Update Data"
+        android:layout_marginTop="-54dp"
+        android:layout_marginEnd="48dp"
+        android:text="Update"
         android:textSize="24dp" />
 
     <Button
         android:id="@+id/btnDelete"
-        android:layout_width="236dp"
+        android:layout_width="141dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/btnUpdate"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="93dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="51dp"
         android:text="Delete"
         android:textSize="24dp" />
 
     <Button
         android:id="@+id/btnView"
-        android:layout_width="match_parent"
+        android:layout_width="196dp"
         android:layout_height="wrap_content"
-        android:textSize="24dp"
+        android:layout_below="@id/btnDelete"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-49dp"
+        android:layout_marginEnd="229dp"
         android:text="View Data"
-        android:layout_below="@id/btnDelete"/>
+        android:textSize="24dp" />
 
     <ImageView
         android:id="@+id/imageView5"

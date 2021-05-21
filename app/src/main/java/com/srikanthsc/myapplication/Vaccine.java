@@ -1,10 +1,10 @@
 package com.srikanthsc.myapplication;//nom du packahe
 //import
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import android.os.Bundle;
 //classe utiliser pour afficher la liste des vaccins
 public class Vaccine extends AppCompatActivity {
 
@@ -20,7 +20,7 @@ public class Vaccine extends AppCompatActivity {
         rcv=(RecyclerView)findViewById(R.id.rclview);
         rcv.setLayoutManager(new LinearLayoutManager(this));
 
-        String arr[]={"Moderna","Pfizer","Covishield","sputnik ","Astrazeneca",""};//creation de la liste
+        String arr[]={"Moderna","Pfizer","Covishield","sputnik ","Astrazeneca"};//creation de la liste
         rcv.setAdapter(new ProgramAdapterRecyclerView(arr));
 
 

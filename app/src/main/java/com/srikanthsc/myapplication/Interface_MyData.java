@@ -2,7 +2,7 @@ package com.srikanthsc.myapplication;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-
+//interface pour MyData
 public interface Interface_MyData {
 
 

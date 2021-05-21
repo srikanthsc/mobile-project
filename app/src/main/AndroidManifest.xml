@@ -3,6 +3,8 @@
     package="com.srikanthsc.myapplication">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -11,9 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ActivityADAdMob"></activity>
+        <activity android:name=".ActivityADAdMob" />
         <activity android:name=".AdTestAdMob" />
-        <activity android:name=".GraphPieChartActivity" />
         <activity android:name=".Okhttp_Test" />
         <activity android:name=".Retrofit" />
         <activity android:name=".Inform" />
