@@ -10,6 +10,7 @@ Sommaire
    * [Description de l'application](#Description-de-l'application)
    * [Caractéristiques du projet](#caractéristiques-du-projet)
    * [Screenshot](#Screenshot)
+   * [API](#API)
    * [AVD utilisées](#AVD-utilisées)
    * [Probleme rencontrée](#Probleme-rencontrée)
    * [Conclusion](#Conclusion)
@@ -32,7 +33,7 @@ Caractéristiques-du-projet
 - [x] RecyclerView
 - [x] ListView
 - [x] API rest 
-- [ ] Retrofit: Destinée pour afficher la deuxiemme API en utilisant cette fois retrofit , mais j'ai eu quelque probleme au lancement. 
+- [ ] Retrofit: Destinée pour afficher la deuxiemme API en utilisant cette fois retrofit , mais j'ai eu quelque probleme sur le retrofit. 
 - [x] Sqllite : utilisées pour le stockage des données en cache
 - [x] Volley : Librairie HTTP
 - [x] Firebase : Le firebase dans ce projet fonctionne partiellement (pour les notifiation push)
@@ -47,6 +48,7 @@ Caractéristiques-du-projet
 - [X] CardView
 - [X] Test Unitaires
 - [X] JavaDoc
+- [X] Commentaire dans le code
 - [X] Gitflow: Tres peu utilisées
 - [x] http://www.json-generator.com/ : Site utilisées pour heberger les API et pour les modifications
 - [x] Troisiemme liste sans utilisation D'API (liste les vaccins)
