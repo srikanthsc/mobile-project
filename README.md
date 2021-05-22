@@ -81,7 +81,7 @@ API
 
 La creation et la modification pour les API et l'herbergement sont faites sur le site http://www.json-generator.com/
 Voici le lien des API utilisées pour le projet:
-- http://www.json-generator.com/api/json/get/bTzfdlcXSa?indent=2
-- http://www.json-generator.com/api/json/get/bPifBFnKwi?indent=2
+- http://www.json-generator.com/api/json/get/bTzfdlcXSa?indent=2  (liste pays)
+- http://www.json-generator.com/api/json/get/bPifBFnKwi?indent=2  (liste gestes barriere) 
   
 
