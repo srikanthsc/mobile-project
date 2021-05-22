@@ -15,7 +15,7 @@ Sommaire
    * [Screenshots](#Screenshots)
    * [API](#API)
    * [AVD utilisées](#AVD-utilisées)
-   * [Probleme rencontrée](#Probleme-rencontrée)
+   * [Probleme rencontrées](#Probleme-rencontrée)
    * [Conclusion](#Conclusion)
  <!--te-->
   
@@ -23,7 +23,7 @@ Sommaire
 
 Description de l'application
 =================================
-C'est une application qui permet de consuleter une liste de pays infecter par le covid, elle permet d'avoir des informations sur chaque pays.
+C'est une application qui permet de consulter une liste de pays infecter par le covid, elle permet d'avoir des informations sur chaque pays.
 Pour cela j'ai utiliser une API Corona mais modifier c'est a dire j'ai garder les pays europeens et fais quelque mofication sur l'API d'origine. Dans cette apllication j'ai creer ma propre API , pour afficher une liste avec les gestes barriere. On peut aussi aussi consulter une liste de vaccins.  
 
 Caractéristiques du projet 
@@ -94,4 +94,23 @@ AVD utilisées
   <p align="middle">
   <img width="600" src="https://github.com/srikanthsc/srikanthsc/blob/master/Screenshot/screenshot%202.PNG">
   </p>
+  
+  
+Probleme Rencontrées
+======================
+
+Dans ce projet j'ai eu quelque probleme liées a retrofit, ça n'affiche pas la liste , l'application s'arrête de fonctionner.
+
+Autre probleme auquel j'ai etait confronté, c'est au momemt d'implementer une nouvelle fonctionnalité. (capture ci-dessous)
+<p align="middle">
+  <img width="800" src="https://github.com/srikanthsc/srikanthsc/blob/master/Screenshot/screenshot%2012.PNG"></p>
+ 
+Selon le modele de L'AVD choisi l'affichage peut etre légerement modifié. 
+Bug trouvé: L'application peut afficher en double la liste et les fenetres lorsques on les ouvrent.
+
+
+Conclusion
+======================
+ 
+Dans le projet on a bien affichées une liste avec un ecran de detail via L'API , et implementées quelques fonctionalités en plus.
 
