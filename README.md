@@ -61,6 +61,7 @@ Caractéristiques du projet
 - [x] Layout
 - [X] Map: Pour afficher une carte 
 - [X] Image asset : Icone pour l'application
+- [X] Git & Github
 
 
 
