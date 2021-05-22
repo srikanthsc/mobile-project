@@ -29,6 +29,7 @@ Caractéristiques-du-projet
 - [x] Projet langage: Codée en Java
 - [x] Glide: Bibliothèque de chargement d'images
 - [x] ImageView
+- [x] Affichage d'une liste 
 - [x] Ecran de detail sur les Items
 - [x] RecyclerView
 - [x] ListView
@@ -53,7 +54,7 @@ Caractéristiques-du-projet
 - [x] http://www.json-generator.com/ : Site utilisées pour heberger les API et pour les modifications
 - [x] Troisiemme liste sans utilisation D'API (liste les vaccins)
 - [x] Layout
-- [X] Map:Pour afficher une carte 
+- [X] Map: Pour afficher une carte 
 
   
 
