@@ -1,5 +1,8 @@
 # Projet Mobile Esiea 3A
 
+<p align="middle">
+  <img width="200" src="https://github.com/srikanthsc/srikanthsc/blob/master/download.png"></p>
+  
 > Nom de l'application : Stop Covid
 
 Sommaire
