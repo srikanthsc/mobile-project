@@ -25,7 +25,7 @@ Pour cela j'ai utiliser une API Corona mais modifier c'est a dire j'ai garder le
 Caractéristiques-du-projet 
 ============================
 
-- [x] Projet: Codée en Java
+- [x] Projet langage: Codée en Java
 - [x] Glide: Bibliothèque de chargement d'images
 - [x] ImageView
 - [x] RecyclerView
@@ -35,5 +35,6 @@ Caractéristiques-du-projet
 - [x] Sqllite : utilisées pour le stockage des données en cache
 - [x] Volley : Librairie HTTP
 - [x] Firebase : Le firebase dans ce projet fonctionne partiellement (pour les notifiation push)
-- [ ] 
+- [x] Admod : Pour afficher une pub
+- [x] Webview : Dans ce projet j'utilise une autre fonctionnalite; la webview pour affiche le site suivant: https://covid19.who.int/ 
 
