@@ -31,6 +31,7 @@ Caractéristiques du projet
 ============================
 
 - [x] Projet langage: Codée en Java
+- [X] Logiciel : Android Studio
 - [x] Glide: Bibliothèque de chargement d'images
 - [x] ImageView
 - [x] Affichage d'une liste 
@@ -59,6 +60,8 @@ Caractéristiques du projet
 - [x] Troisiemme liste sans utilisation D'API (liste les vaccins)
 - [x] Layout
 - [X] Map: Pour afficher une carte 
+- [X] Image asset : Icone pour l'application
+
 
 
 Screenshots
