@@ -28,6 +28,7 @@ Caractéristiques-du-projet
 - [x] Projet langage: Codée en Java
 - [x] Glide: Bibliothèque de chargement d'images
 - [x] ImageView
+- [x] Ecran de detail sur les Items
 - [x] RecyclerView
 - [x] ListView
 - [x] API rest 
@@ -48,5 +49,8 @@ Caractéristiques-du-projet
 - [X] JavaDoc
 - [X] Gitflow: Tres peu utilisées
 - [x] http://www.json-generator.com/ : Site utilisées pour heberger les API et pour les modifications
+- [x] Troisiemme liste sans utilisation D'API (liste les vaccins)
+- [x] Layout
+
   
 
