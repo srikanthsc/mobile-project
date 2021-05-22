@@ -32,4 +32,7 @@ Caractéristiques-du-projet
 - [x] ListView
 - [x] API rest 
 - [ ] Retrofit: Destinée pour afficher la deuxiemme API en utilisant cette fois retrofit , mais j'ai eu quelque probleme au lancement. 
+- [x] Sqllite : utilisées pour le stockage des données en cache
+- [x] Volley : Librairie HTTP
+- [|] Firebase : Le firebase dans ce projet fonctionne partiellement (pour les notifiation push)
 
