@@ -37,4 +37,16 @@ Caractéristiques-du-projet
 - [x] Firebase : Le firebase dans ce projet fonctionne partiellement (pour les notifiation push)
 - [x] Admod : Pour afficher une pub
 - [x] Webview : Dans ce projet j'utilise une autre fonctionnalite; la webview pour affiche le site suivant: https://covid19.who.int/ 
+- [x] Bouton
+- [x] Okhttp
+- [x] Json pour les API
+- [X] Screenplash : L'ecran de demmarage de l'application
+- [X] Architecture : Utilisation de la segregation des interfaces
+- [X] Vector asset
+- [X] CardView
+- [X] Test Unitaires
+- [X] JavaDoc
+- [X] Gitflow: Tres peu utilisées
+- [x] http://www.json-generator.com/ : Site utilisées pour heberger les API et pour les modifications
+  
 
