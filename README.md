@@ -96,7 +96,7 @@ AVD utilisées
   </p>
   
   
-Probleme Rencontrées
+Probleme rencontrées
 ======================
 
 Dans ce projet j'ai eu quelque probleme liées a retrofit, ça n'affiche pas la liste , l'application s'arrête de fonctionner.
