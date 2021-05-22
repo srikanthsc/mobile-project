@@ -35,7 +35,7 @@ Caractéristiques-du-projet
 - [x] ListView
 - [x] API rest 
 - [ ] Retrofit: Destinée pour afficher la deuxiemme API en utilisant cette fois retrofit , mais j'ai eu quelque probleme sur le retrofit. 
-- [x] Sqllite : utilisées pour le stockage des données en cache
+- [x] Sqllite : Utilisées pour le stockage des données en cache
 - [x] Volley : Librairie HTTP
 - [x] Firebase : Le firebase dans ce projet fonctionne partiellement (pour les notifiation push)
 - [x] Admod : Pour afficher une pub
@@ -75,5 +75,13 @@ Screenshots
   <img width="200" src="https://github.com/srikanthsc/srikanthsc/blob/master/Screenshot/webview.PNG">
 </p>
 
+
+API
+=============
+
+La creation et la modification pour les API et l'herbergement sont faites sur le site http://www.json-generator.com/
+Voici le lien des API utilisées pour le projet:
+- http://www.json-generator.com/api/json/get/bTzfdlcXSa?indent=2
+- http://www.json-generator.com/api/json/get/bPifBFnKwi?indent=2
   
 
