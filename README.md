@@ -53,6 +53,7 @@ Caractéristiques-du-projet
 - [x] http://www.json-generator.com/ : Site utilisées pour heberger les API et pour les modifications
 - [x] Troisiemme liste sans utilisation D'API (liste les vaccins)
 - [x] Layout
+- [X] Map:Pour afficher une carte 
 
   
 
