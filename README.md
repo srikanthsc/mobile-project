@@ -118,6 +118,7 @@ Conclusion
 ======================
  
 Dans le projet on a bien affichées une liste avec un ecran de detail via L'API , et implementées quelques fonctionalités en plus.
-  <img center="right" alt="GIF" src="https://github.com/srikanthsc/srikanthsc/blob/master/Screenshot/anim.gif?raw=true" width="500" height="320" />
+
+<img center="right" alt="GIF" src="https://github.com/srikanthsc/srikanthsc/blob/master/Screenshot/anim.gif?raw=true" width="500" height="320" />
 
 
