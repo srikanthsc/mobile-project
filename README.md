@@ -23,7 +23,7 @@ Description de l'application
 C'est une application qui permet de consuleter une liste de pays infecter par le covid, elle permet d'avoir des informations sur chaque pays.
 Pour cela j'ai utiliser une API Corona mais modifier c'est a dire j'ai garder les pays europeens et fais quelque mofication sur l'API d'origine. Dans cette apllication j'ai creer ma propre API , pour afficher une liste avec les gestes barriere. On peut aussi aussi consulter une liste de vaccins.  
 
-Caractéristiques-du-projet 
+Caractéristiques du projet 
 ============================
 
 - [x] Projet langage: Codée en Java
