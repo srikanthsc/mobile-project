@@ -9,6 +9,7 @@ Sommaire
    * [Sommaire](#Sommaire)
    * [Description de l'application](#Description-de-l'application)
    * [Screenshot](#Screenshot)
+   * [Caractéristiques du projet] (#caractéristiques-du-projet)
    * [AVD utilisées](#AVD-utilisées)
    * [Probleme rencontrée](#Probleme-rencontrée)
    * [Conclusion](#Conclusion)
