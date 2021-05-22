@@ -35,7 +35,8 @@ Caractéristiques du projet
 ============================
 
 - [x] Projet langage: Codée en Java
-- [X] Logiciel : Android Studio
+- [X] Logiciel : Android Studio <p>
+  <img width="90" src="https://github.com/srikanthsc/srikanthsc/blob/master/Screenshot/and.png"></p>
 - [x] Glide: Bibliothèque de chargement d'images
 - [x] ImageView
 - [x] Affichage d'une liste 
