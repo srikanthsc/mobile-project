@@ -15,7 +15,7 @@ Sommaire
    * [Screenshots](#Screenshots)
    * [API](#API)
    * [AVD utilisées](#AVD-utilisées)
-   * [Probleme rencontrées](#Probleme-rencontrée)
+   * [Probleme rencontrées](#Probleme-rencontrées)
    * [Conclusion](#Conclusion)
  <!--te-->
   
