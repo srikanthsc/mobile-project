@@ -334,7 +334,7 @@
         android:layout_height="45dp"
 
         android:layout_centerHorizontal="true"
-        android:text="ADD" />
+        android:text="AD" />
 
     <Button
         android:id="@+id/button6"
