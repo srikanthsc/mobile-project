@@ -89,6 +89,6 @@ Voici le lien des API utilisées pour le projet:
 AVD utilisées
 ===============
   <p align="middle">
-  <img width="200" src="https://github.com/srikanthsc/srikanthsc/blob/master/Screenshot/screenshot%202.PNG">
+  <img width="600" src="https://github.com/srikanthsc/srikanthsc/blob/master/Screenshot/screenshot%202.PNG">
   </p>
 
