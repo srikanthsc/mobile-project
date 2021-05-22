@@ -83,5 +83,12 @@ La creation et la modification pour les API et l'herbergement sont faites sur le
 Voici le lien des API utilisées pour le projet:
 - http://www.json-generator.com/api/json/get/bTzfdlcXSa?indent=2  (liste pays)
 - http://www.json-generator.com/api/json/get/bPifBFnKwi?indent=2  (liste gestes barriere) 
-  
+
+
+
+AVD utilisées
+===============
+  <p align="middle">
+  <img width="200" src="https://github.com/srikanthsc/srikanthsc/blob/master/Screenshot/screenshot%202.PNG">
+  </p>
 
