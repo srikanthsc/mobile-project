@@ -9,7 +9,7 @@ Sommaire
    * [Sommaire](#Sommaire)
    * [Description de l'application](#Description-de-l'application)
    * [Caractéristiques du projet](#caractéristiques-du-projet)
-   * [Screenshot](#Screenshot)
+   * [Screenshots](#Screenshots)
    * [API](#API)
    * [AVD utilisées](#AVD-utilisées)
    * [Probleme rencontrée](#Probleme-rencontrée)
@@ -55,6 +55,18 @@ Caractéristiques-du-projet
 - [x] Troisiemme liste sans utilisation D'API (liste les vaccins)
 - [x] Layout
 - [X] Map: Pour afficher une carte 
+
+
+Screenshots
+=============
+
+
+<p align="middle">
+  <img width="200" src="https://github.com/srikanthsc/srikanthsc/blob/master/Screenshot/screenshot%201.PNG">
+  <img width="200" src="https://github.com/srikanthsc/srikanthsc/blob/master/Screenshot/screenshot%203.PNG">
+  <img width="200" src="https://github.com/srikanthsc/srikanthsc/blob/master/Screenshot/screenshot%204.PNG">
+  <img width="200" src="https://github.com/srikanthsc/srikanthsc/blob/master/Screenshot/screenshot%205.PNG">
+</p>
 
   
 
