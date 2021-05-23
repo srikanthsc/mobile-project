@@ -8,6 +8,10 @@
 
 > Réalisé par Srikanth COLLATY
 
+> ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github) ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git) ![Android](https://img.shields.io/badge/Android-05150C?style=flat-square&logo=android)   ![Java](https://img.shields.io/badge/Java-orange?style=flat-square&logo=java)
+
+
+
  
 
 Sommaire
