@@ -124,6 +124,7 @@ Selon le modele de L'AVD choisi l'affichage peut etre légerement modifié.
 Bug trouvé: L'application peut afficher en double la liste et les fenetres lorsques on les ouvrent.
 
 
+
 Conclusion
 ======================
  
