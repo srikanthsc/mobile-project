@@ -71,6 +71,7 @@ Caractéristiques du projet
 - [X] Map: Pour afficher une carte 
 - [X] Image asset : Icone pour l'application
 - [X] Git & Github
+- [X] Generation de l'application au format APK (https://mega.nz/file/Y5JGXJCS#sQKv0zNQHlXmFvNtBSdERW53ppnnhfyPk0Hk1hPyHYg)
 
 
 
