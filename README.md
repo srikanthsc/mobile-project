@@ -19,7 +19,7 @@ Sommaire
 
 <!--ts-->
    * [Sommaire](#Sommaire)
-   * [Description de l'application](#Description-de-l-'application)
+   * [Description de l'application](#Description-de-l'application)
    * [Caractéristiques du projet](#caractéristiques-du-projet)
    * [Screenshots](#Screenshots)
    * [API](#API)
