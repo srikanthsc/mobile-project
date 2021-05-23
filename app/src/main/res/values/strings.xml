@@ -4,6 +4,7 @@
     <string name="notification_channel_title">myTitle</string>
     <string name="notification_channel_desc">This is a test canal</string>
     <string name="open">Open</string>
+
     <string name="close">Close</string>
 
 </resources>
