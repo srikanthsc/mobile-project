@@ -116,6 +116,7 @@ Autre probleme auquel j'ai etait confronté, c'est au momemt d'implementer une n
   <img width="800" src="https://github.com/srikanthsc/srikanthsc/blob/master/Screenshot/screenshot%2012.PNG"></p>
  
 Selon le modele de L'AVD choisi l'affichage peut etre légerement modifié. 
+
 Bug trouvé: L'application peut afficher en double la liste et les fenetres lorsques on les ouvrent.
 
 
