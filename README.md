@@ -1,8 +1,7 @@
 # Projet Mobile Esiea 3A  2020/2021                 
 ### Module: Programmation Mobile
 
-<p align="middle">
-  <img width="200" src="https://github.com/srikanthsc/srikanthsc/blob/master/download.png"></p>
+![A test image](https://github.com/srikanthsc/Capprojet/blob/bckend/assets/images/locotigo.png)
   
 > Nom de l'application : Stop Covid
 
